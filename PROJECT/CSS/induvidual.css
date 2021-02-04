@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  font-family: teko, sans-serif;
+  background-color: rgb(44, 43, 43);
+  height: 100px;
+}
+.title img {
+  height: 60px;
+  width: 60px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+.title a {
+  text-decoration: none;
+  color: rgb(156, 155, 155);
+  letter-spacing: 20px;
+  word-spacing: 13px;
+  margin-right: 150px;
+  text-transform: uppercase;
+}
+.title h2 {
+  margin-top: 25px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(44, 43, 43);
+  color: rgb(156, 155, 155);
+  height: 150px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+.contactus ul {
+  list-style: none;
+  text-align: center;
+}
+.contactus {
+  text-transform: uppercase;
+}
+.contactus p {
+  letter-spacing: 5px;
+}
+.address h1 {
+  color: white;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  font-size: x-large;
+  font-family: teko, sans-serif;
+}
+.address p {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.social ul {
+  list-style: none;
+  text-align: center;
+}
+.social p {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+#sociallink {
+  text-decoration: none;
+  color: rgb(156, 155, 155);
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.item img {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.page {
+  background-color: rgb(63, 62, 62);
+}
+.info {
+  color: rgb(255, 255, 255);
+  margin-right: 100px;
+}
